@@ -2,6 +2,7 @@
 !procedure $top_block_scheme()
     BorderThickness 2
     BorderColor black
+    'FontColor red
 !endprocedure
 
 'povolení box v boxu
@@ -35,13 +36,12 @@ skinparam {
 
 skinparam actor {
     $top_block_scheme()
-    'FontColor red    
+    BorderColor black
     BackgroundColor SkyBlue
 }
 
 skinparam entity {
     $top_block_scheme()
-    'FontColor red
     BackgroundColor #ff9c9c
 }
 
