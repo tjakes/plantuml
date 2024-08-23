@@ -52,7 +52,12 @@ skinparam boundary {
 
 skinparam database {
     $top_block_scheme()
-    BackgroundColor: #DarkKhaki
+    BackgroundColor DarkKhaki
+}
+
+skinparam collections {
+    $top_block_scheme()
+    BackgroundColor Moccasin
 }
 
 skinparam sequence {
@@ -70,6 +75,7 @@ skinparam sequence {
     LifeLineBackgroundColor #A9DCDF
 }
 
+
 'skinparam actorStyle Hollow
 
 
@@ -82,14 +88,7 @@ participant, database, control, collections, actor, queue {
     'FontStyle bold
 }
 
-database {
-    'BackgroundColor: #PaleVioletRed
-    BackgroundColor: #DarkKhaki
-}
 
-collections {
-    BackgroundColor: #Moccasin
-}
 
 sequenceDiagram {
     group {
