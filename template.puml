@@ -41,35 +41,3 @@ skinparam sequence {
     LifeLineBorderColor #00729be8
     LifeLineBackgroundColor #A9DCDF
 }
-
-<style>
-title {
-    FontSize 24
-}
-footer {
-    HorizontalAlignment right
-}
-participant, database, control, collections, actor, queue {
-    LineThickness 1.5
-    'FontStyle bold
-}
-
-database {
-    'BackgroundColor: #PaleVioletRed
-    BackgroundColor: #DarkKhaki
-}
-
-collections {
-    BackgroundColor: #Moccasin
-}
-
-sequenceDiagram {
-    group {
-        FontSize 14
-    }
-}
-alt {
-    BackgroundColor red
-}
-
-</style>
