@@ -67,8 +67,16 @@ skinparam control {
     $top_block_scheme()
 }
 
+skinparam package {
+    $top_block_scheme()
+}
+
 skinparam queue {
     $top_block_scheme()
+}
+
+skinparam rectangle {
+    BorderThickness 1.4
 }
 
 skinparam sequence {
