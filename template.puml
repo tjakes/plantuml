@@ -74,6 +74,9 @@ skinparam sequence {
     LifeLineBackgroundColor #A9DCDF
 }
 
+skinparam actor {
+    BorderColor black
+}
 
 'skinparam actorStyle Hollow
 
