@@ -94,6 +94,22 @@ skinparam sequence {
     LifeLineBackgroundColor #A9DCDF
 }
 
+skinparam Class {
+    Style rectangle
+    BorderThickness 3
+    'BackgroundColor<<Apache>> Pink
+    'BorderColor<<Apache>> #FF6655
+    'BorderColor black    
+    FontSize 16
+    FontStyle bold
+    AttributeFontStyle 18
+    FontColor black
+    FontStyle bold
+    HeaderBackgroundColor #b5c9ff
+    AttributeFontSize 18
+    'AttributeFontColor red
+}
+
 skinparam actor {
     BorderColor black
 }
