@@ -68,7 +68,7 @@ skinparam control {
 }
 
 skinparam package {
-    $top_block_scheme()
+    BorderThickness 1.6
 }
 
 skinparam queue {
