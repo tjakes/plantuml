@@ -1,0 +1,75 @@
+'povolení box v boxu
+'!pragma teoz true 
+skinparam {
+    'BoxPadding 10
+    'PageMargin 10
+    titleFontSize 24
+    'šířka textů spojnic
+    maxMessageSize 260 
+    'šířka poznámek
+    WrapWidth 350 
+    RoundCorner 8
+    'odsazeni v bloku - vlevo vpravo
+    'ParticipantPadding 20
+    'odskok mezi bloky
+    'BoxPadding 10
+
+    'responseMessageBelowArrow true
+    noteBorderThickness 1
+    noteBackgroundColor #Ivory
+	'noteBorderColor gray
+	'noteFontColor black
+
+    'AgentBorderThickness 5
+    'ComponentBorderThickness 5
+    'ObjectBorderThickness 5
+    'SequenceDividerBorderThickness 3
+    'DiagramBorderThickness 5
+}
+
+skinparam sequence {
+    'zarovnání textu
+    'MessageAlign direction
+    'MessageAlign center
+    'šipky toku požadavku
+    ArrowThickness 1.4
+    ArrowColor DeepSkyBlue
+    ActorBorderColor DeepSkyBlue
+
+    'boxy životnosti
+    LifeLineBorderColor black 
+    LifeLineBorderColor #00729be8
+    LifeLineBackgroundColor #A9DCDF
+}
+
+<style>
+title {
+    FontSize 24
+}
+footer {
+    HorizontalAlignment right
+}
+participant, database, control, collections, actor, queue {
+    LineThickness 1.5
+    'FontStyle bold
+}
+
+database {
+    'BackgroundColor: #PaleVioletRed
+    BackgroundColor: #DarkKhaki
+}
+
+collections {
+    BackgroundColor: #Moccasin
+}
+
+sequenceDiagram {
+    group {
+        FontSize 14
+    }
+}
+alt {
+    BackgroundColor red
+}
+
+</style>
