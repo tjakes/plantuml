@@ -1,4 +1,11 @@
 !$ElementBorderThickness = 2
+!$ColorZBO = "#e5de81"
+!$ColorAIS = "Moccasin"
+!$ColorPP = "#ff9c9c"
+!$ColorUser = "SkyBlue"
+!$ColorIP = "SkyBlue"
+!$ColorLine = "SkyBlue"
+
 !procedure $top_block_scheme()
     BorderThickness 2
     BorderColor black
@@ -39,23 +46,23 @@ skinparam {
 
 skinparam actor {
     $top_block_scheme()
-    BackgroundColor SkyBlue
+    BackgroundColor $ColorUser
 }
 
 skinparam entity {
     $top_block_scheme()
-    BackgroundColor #ff9c9c
+    BackgroundColor $ColorPP
 }
 
 skinparam boundary {
     $top_block_scheme()    
-    BackgroundColor #ff9c9c
+    BackgroundColor $ColorPP
 }
 
 skinparam database {
     $top_block_scheme()
     BackgroundColor 'DarkKhaki
-    BackgroundColor #e5de81
+    BackgroundColor $ColorZBO
 }
 
 skinparam collections {
