@@ -22,6 +22,8 @@ skinparam {
     WrapWidth 350 
     RoundCorner 8    
 
+    'FontName arial
+
     'responseMessageBelowArrow true
     noteBorderThickness 1
     noteBackgroundColor #Ivory
@@ -52,7 +54,8 @@ skinparam boundary {
 
 skinparam database {
     $top_block_scheme()
-    BackgroundColor DarkKhaki
+    BackgroundColor 'DarkKhaki
+    BackgroundColor #e5de81
 }
 
 skinparam collections {
