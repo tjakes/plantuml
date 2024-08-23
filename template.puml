@@ -8,18 +8,18 @@
 'povolení box v boxu
 '!pragma teoz true 
 skinparam {
+    Padding 5
+    'odskok mezi bloky    
     'BoxPadding 10
+    'odsazeni v bloku - vlevo vpravo
+    'ParticipantPadding 20
     'PageMargin 10
     titleFontSize 24
     'šířka textů spojnic
-    maxMessageSize 260 
+    maxMessageSize 260
     'šířka poznámek
     WrapWidth 350 
-    RoundCorner 8
-    'odsazeni v bloku - vlevo vpravo
-    'ParticipantPadding 20
-    'odskok mezi bloky
-    'BoxPadding 10
+    RoundCorner 8    
 
     'responseMessageBelowArrow true
     noteBorderThickness 1
