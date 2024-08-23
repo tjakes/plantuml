@@ -36,7 +36,6 @@ skinparam {
 
 skinparam actor {
     $top_block_scheme()
-    BorderColor black
     BackgroundColor SkyBlue
 }
 
