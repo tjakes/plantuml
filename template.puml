@@ -2,7 +2,7 @@
 !procedure $top_block_scheme()
     BorderThickness 2
     BorderColor black
-    FontColor red
+    'FontColor red
 !endprocedure
 
 'povolení box v boxu
