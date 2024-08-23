@@ -14,6 +14,7 @@ skinparam {
     'odsazeni v bloku - vlevo vpravo
     'ParticipantPadding 20
     'PageMargin 10
+    'titleFontColor #242424
     titleFontSize 24
     'šířka textů spojnic
     maxMessageSize 260
