@@ -1,3 +1,9 @@
+!$ElementBorderThickness = 2
+!procedure $top_block_scheme()
+    BorderThickness 2
+    BorderColor black
+!endprocedure
+
 'povolení box v boxu
 '!pragma teoz true 
 skinparam {
@@ -17,14 +23,36 @@ skinparam {
     'responseMessageBelowArrow true
     noteBorderThickness 1
     noteBackgroundColor #Ivory
-	'noteBorderColor gray
-	'noteFontColor black
+    'noteBorderColor gray
+    'noteFontColor black
 
     'AgentBorderThickness 5
     'ComponentBorderThickness 5
     'ObjectBorderThickness 5
     'SequenceDividerBorderThickness 3
     'DiagramBorderThickness 5
+}
+
+skinparam actor {
+    $top_block_scheme()
+    'FontColor red    
+    BackgroundColor SkyBlue
+}
+
+skinparam entity {
+    $top_block_scheme()
+    'FontColor red
+    BackgroundColor #ff9c9c
+}
+
+skinparam boundary {
+    $top_block_scheme()    
+    BackgroundColor #ff9c9c
+}
+
+skinparam database {
+    $top_block_scheme()
+    BackgroundColor: #DarkKhaki
 }
 
 skinparam sequence {
@@ -46,9 +74,6 @@ skinparam sequence {
 
 
 <style>
-title {
-    FontSize 24
-}
 footer {
     HorizontalAlignment right
 }
@@ -72,7 +97,7 @@ sequenceDiagram {
     }
 }
 alt {
-    BackgroundColor red
+    'BackgroundColor red
 }
 
 </style>
