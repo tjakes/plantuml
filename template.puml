@@ -42,6 +42,8 @@ skinparam sequence {
     LifeLineBackgroundColor #A9DCDF
 }
 
+'skinparam actorStyle Hollow
+
 
 <style>
 title {
