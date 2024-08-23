@@ -105,7 +105,8 @@ skinparam Class {
     AttributeFontStyle 18
     FontColor black
     FontStyle bold
-    HeaderBackgroundColor #b5c9ff
+    HeaderBackgroundColor #b9e7ff
+    'HeaderBackgroundColor #b5c9ff
     AttributeFontSize 18
     'AttributeFontColor red
 }
