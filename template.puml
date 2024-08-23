@@ -134,6 +134,11 @@ footer {
     HorizontalAlignment right
 }
 
+lifeLine {
+    LineThickness 1.5
+    LineColor black
+}
+
 sequenceDiagram {
     group {
         FontSize 14
