@@ -59,6 +59,18 @@ skinparam collections {
     BackgroundColor Moccasin
 }
 
+skinparam participant {
+    $top_block_scheme()
+}
+
+skinparam control {
+    $top_block_scheme()
+}
+
+skinparam queue {
+    $top_block_scheme()
+}
+
 skinparam sequence {
     'zarovnání textu
     'MessageAlign direction
@@ -85,12 +97,6 @@ skinparam actor {
 footer {
     HorizontalAlignment right
 }
-participant, database, control, collections, actor, queue {
-    LineThickness 1.5
-    'FontStyle bold
-}
-
-
 
 sequenceDiagram {
     group {
